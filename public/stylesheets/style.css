@@ -1,0 +1,77 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'Lobster', cursive;
+}
+
+.g-span {
+    color: #FFFFFF;
+    font-family: 'Lobster', cursive;
+    font-size: 8em;
+    text-shadow: 7px 4px 3px rgba(4,7,9,0.81);
+}
+
+.g-img {
+    margin-top: 2em !important;
+    height: 18% !important;
+    width: 18% !important;
+    transform: rotate(0deg) scale(1);
+    transition: 2s;
+/*    animation: spin 2s linear;*/
+}
+
+.g-img:hover {
+   transform: rotate(-15deg) scale(1.2); 
+   transition: 2s;
+}
+
+.g-home-options-l, .g-home-options-r {
+    margin-top: 4em !important;
+    font-family: 'Anton', sans-serif;
+    color: #ecf0f1;
+    font-size: 2.5em;
+    cursor: pointer;
+}
+
+.g-home-options-l:hover {
+    color: #8357c5;        
+}
+
+.g-home-options-r:hover {
+    color: #7544be;        
+}
+
+.g-fa {
+    color: #ecf0f1;
+    font-size: 4em;
+    cursor: pointer;
+    text-shadow: rgb(71, 71, 71) 3px 5px 2px;
+}
+
+.g-fa:hover {
+    color: #8357c5; 
+    font-size: 4.1em;
+    cursor: pointer;
+}
+
+a {
+    color: #FFFFFF !important;
+}
+
+a:hover {
+    color: #8357c5 !important;
+}
